@@ -14,28 +14,46 @@ const EXPERIENCE: ExperienceItem[] = [
       "Custom websites for small businesses, including a review-approval hub built on Supabase.",
   },
   {
-    period: "2026 – present",
-    title: "Cisco Cybersecurity Training, Digititan Holdings",
+    period: "Oct – Nov 2026",
+    title: "Cisco Cybersecurity Training Programme, Digititan Holdings",
     description:
-      "Introduction to Cybersecurity (completed), Endpoint Security, Cyber Threat Management, Cybersecurity Essentials, Network Defense.",
+      "Introduction to Cybersecurity (completed), Endpoint Security, Cyber Threat Management, Cybersecurity Essentials, Network Defense (in progress).",
   },
   {
-    period: "2026",
-    title: "FNB App Academy and App of the Year Hackathon",
+    period: "23–25 Oct 2026",
+    title: "FNB App of the Year Hackathon 2026",
     description:
-      "Python development programme, then built Pursuit for the 2026 hackathon.",
+      "Took part as a solo team (Mai Solutions) in the Education challenge on access to higher education, building and submitting Pursuit with a live deployment, presentation deck and demo video.",
+  },
+  {
+    period: "Jul 2026 – present",
+    title: "FNB App Academy",
+    description:
+      "Completed a two-week Python development programme covering programming fundamentals and problem-solving.",
+  },
+  {
+    period: "25–29 May 2026",
+    title: "AI Skills Acceleration Programme, CAPACITI",
+    description:
+      "Completed an intensive one-week programme with practical exposure to AI tools and industry applications.",
   },
   {
     period: "2024 – present",
-    title: "Mathematics and CAT Tutor",
+    title: "Private Mathematics & CAT Tutor, Self-Employed",
     description:
-      "Private and agency tutoring for IEB and DBE learners, plus CAT content creation for Wingu Academy.",
+      "Tutor IEB and DBE learners in Mathematics and CAT with personalised learning plans, and prepare them for examinations, assessments and practical tasks.",
   },
   {
-    period: "2025 – 2027",
-    title: "BSc Information Technology (Software Engineering), Eduvos Pretoria",
+    period: "May 2025 – Feb 2026",
+    title: "High School Mathematics Tutor, Tutors SA (Pty) Ltd",
     description:
-      "Java, database systems (Oracle SQL, MongoDB, Neo4j), networking and security.",
+      "Tutored a Grade 10 (IEB) student in Mathematics, improving understanding of core concepts and exam readiness.",
+  },
+  {
+    period: "Nov 2025 – Jan 2026",
+    title: "Part-Time CAT Content Creator, Wingu Academy",
+    description:
+      "Developed curriculum-aligned lesson plans, study guides, worksheets and quizzes for Grade 12 learners.",
   },
 ];
 
