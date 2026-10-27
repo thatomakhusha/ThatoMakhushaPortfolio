@@ -39,7 +39,7 @@ const PROJECTS: Project[] = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="px-4">
+    <section id="projects">
       <SectionHeader number="01" title="selected_projects" />
 
       <div className="grid gap-6 md:grid-cols-2">
