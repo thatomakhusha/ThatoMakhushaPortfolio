@@ -1,9 +1,9 @@
 import SectionHeader from "./SectionHeader";
 
 const skills = [
-    {category: "// build", categorySkills: "Next.js, React, TypeScript,JavaScript, Tailwind CSS, HTML5, CSS3, Java (developing), Spring Boot (beginner)"},
-    {category: "// data", categorySkills: "Supabase, PostgreSQL (beginner), MongoDB (beginner), REST API design (beginner), JUnit (beginner)"},
-    {category: "// security & tools", categorySkills: "Cybersecurity fundamentals (Cisco, in progress), Git and GitHub, Vercel, VS Code, Microsoft Office"}
+    {category: "// build", items: "Next.js, React, TypeScript, JavaScript, Tailwind CSS, HTML5, CSS3, Java (developing), Spring Boot (beginner)"},
+    {category: "// data", items: "Supabase, PostgreSQL (beginner), MongoDB (beginner), REST API design (beginner), JUnit (beginner)"},
+    {category: "// security & tools", items: "Cybersecurity fundamentals (Cisco, in progress), Git and GitHub, Vercel, VS Code, Microsoft Office"}
 ]
 
 export default function Skills(){
@@ -17,8 +17,8 @@ export default function Skills(){
                         <p className="text-muted text-sm mb-2">
                             {skill.category}
                         </p>
-                        <p className="">
-                            {skill.categorySkills}
+                        <p>
+                            {skill.items}
                         </p>
                     </div>
                 ))}
