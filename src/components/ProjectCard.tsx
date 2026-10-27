@@ -19,7 +19,7 @@ export default function ProjectCard({
     return (
         <article className="border border-border rounded-xl overflow-hidden bg-[#0d1526]">
             <div className="flex items-center gap-3 px- py-3 border-b border-border">
-                <div className="flex gap-1.5">
+                <div className="flex gap-1.5 ml-3">
                     <span className="size-2.5 rounded-full bg-red-400" />
                     <span className="size-2.5 rounded-full bg-yellow-400" />
                     <span className="size-2.5 rounded-full bg-green-400" />
