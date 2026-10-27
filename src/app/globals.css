@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+html.custom-cursor,
+html.custom-cursor * {
+    cursor: none !important;
+}
+
 /* ---------- your original design tokens (unchanged) ---------- */
 :root {
     --bg: #0a0f1e;
