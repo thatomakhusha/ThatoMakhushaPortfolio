@@ -11,7 +11,7 @@ export default function Skills(){
     return (
         <section id="skills">
             <SectionHeader number="02" title="skills" />
-            <div className="grid grid-cols-2 lg:grid-cols-3 gap-5">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
                 {skills.map((skill) => (
                     <div className="pt-4 border-t border-border" key={skill.category}>
                         <p className="text-muted text-sm mb-2">
