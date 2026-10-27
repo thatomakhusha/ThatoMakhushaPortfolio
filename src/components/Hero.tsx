@@ -30,7 +30,7 @@ export default function Hero(){
     return (
         <section
             id="hero"
-            className="relative overflow-hidden flex flex-col gap-3 border-b border-border bg-size-[40px_40px] bg-[linear-gradient(#1e2d4520_2px,transparent_2px),linear-gradient(90deg,#1e2d4520_2px,transparent_2px)]"
+            className="px-6 md:px-7 lg:px-9 relative overflow-hidden flex flex-col gap-3 border-b border-border bg-size-[40px_40px] bg-[linear-gradient(#1e2d4520_2px,transparent_2px),linear-gradient(90deg,#1e2d4520_2px,transparent_2px)]"
         >
                 <div className="self-start text-[14px] inline-block text-accent bg-accent/8 border border-border px-3.5 py-1.25 rounded-sm mb-6">
                     {CODE_TAG}
