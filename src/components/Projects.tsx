@@ -8,6 +8,7 @@ const PROJECTS: Project[] = [
     description:
       "Application and career pathway tracker built for the FNB App of the Year Hackathon 2026. Jobs, internships, learnerships, bursaries and university applications in one place.",
     stack: ["Next.js", "TypeScript", "Tailwind", "Supabase"],
+    image: "/projects/pursuit.png",
     demoUrl: "https://pursuit-brown-ten.vercel.app/",
     codeUrl: "https://github.com/thatomakhusha/pursuit",
   },
@@ -17,6 +18,7 @@ const PROJECTS: Project[] = [
     description:
       "Retro arcade games hub with 15 planned games and per-game leaderboards. Java game logic, a Next.js frontend, and a Spring Boot and PostgreSQL backend I am learning as I build. In development.",
     stack: ["Java", "Spring Boot", "PostgreSQL", "Next.js", "TypeScript"],
+    image: "/projects/bitbunker.png",
     codeUrl: "https://github.com/thatomakhusha/bitbunker",
   },
   {
@@ -25,15 +27,17 @@ const PROJECTS: Project[] = [
     description:
       "Client website for a bakery business, plus a private admin hub where the owner approves or rejects customer reviews, built with Supabase.",
     stack: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase"],
-    codeUrl: "https://tscakes.co.za",
+    image: "/projects/ts-cakes.png",
+    demoUrl: "https://tscakes.co.za",
   },
   {
     folder: "golden-moments/",
-    title: "Golden Momentss",
+    title: "Golden Moments",
     description:
       "Custom bakery website with a premium visual identity: tailored palette, typography and a responsive landing page built from reusable components.",
-    stack: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase"],
-    codeUrl: "https://golden-moments-gold.vercel.app/",
+    stack: ["Next.js", "TypeScript", "Tailwind CSS"],
+    image: "/projects/golden-moments.png",
+    demoUrl: "https://golden-moments-gold.vercel.app/",
   },
 ];
 
