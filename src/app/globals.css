@@ -6,18 +6,18 @@
     --text: #e2e8f0;
     --muted: #4a6580;
     --border: #1e2d45;
-    --accent: #38bdf8;
+    --accent: #38bdf8 ;
     --font-mono: var(--font-jetbrains), monospace;
     --font-sans: sans-serif;
 }
 
 /* lets you also use them as Tailwind classes: bg-bg, text-accent, border-border */
 @theme inline {
-    --color-bg: var(--bg);
-    --color-text: var(--text);
-    --color-muted: var(--muted);
-    --color-border: var(--border);
-    --color-accent: var(--accent);
+    --color-bg: #0a0f1e;
+    --color-text: #e2e8f0;
+    --color-muted: #4a6580;
+    --color-border: #1e2d45;
+    --color-accent: #38bdf8;
 }
 
 /* ---------- your original site styles ---------- */
