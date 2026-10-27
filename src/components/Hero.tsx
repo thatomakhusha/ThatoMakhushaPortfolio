@@ -36,10 +36,15 @@ export default function Hero(){
                     {CODE_TAG}
                 </div>
 
-                <h1 className="text-[5rem] font-medium leading-[1.2] min-h-[2.4em]">
-                    <span>{line1}</span>
+                <h1
+                    aria-label={`${TEXT1} ${TEXT2}`}
+                    className="text-[2.2rem] sm:text-5xl md:text-[5rem] font-medium leading-[1.2] min-h-[2.4em]"
+                >
+                    <span aria-hidden="true">{line1}</span>
                     <br />
-                    <span className="text-accent">{line2}</span>
+                    <span aria-hidden="true" className="text-accent">
+                    {line2}
+                    </span>
                 </h1>
                 
                 <p className="text-[17px] text-sub-text max-w-200 mb-8">
@@ -47,27 +52,26 @@ export default function Hero(){
                     full-stack web apps and working towards a career in
                     software engineering and cybersecurity.
                 </p>
-                <div className="flex gap-4">
-                    <a href="/" download className="btn-primary self-start">
+
+                <div className="flex flex-wrap gap-4">
+                    <Link  href="/#projects" className="btn-primary self-start">
                         view_projects()
-                    </a>
-                    <a href="/" download className="btn-ghost self-start">
+                    </Link>
+                    <a href="/documents/Thato Makhusha Curriculum Vitae.pdf" download className="btn-ghost self-start">
                         download_cv()
                     </a>
                 </div>
-                <div className="flex flex-wrap gap-2">
+
+                <div className="flex flex-wrap gap-2 mt-2">
                     {portStack.map((tech) => (
                         <span
                             key={tech}
-                            className="text-[13px] text-muted bg-bg border border-border px-3 py-1 rounded-2xl mt-2"
+                            className="text-[13px] text-muted bg-bg border border-border px-3 py-1 rounded-2xl"
                         >
                         {tech}
                         </span>
                     ))}
                 </div>
-                
-
-            
         </section>
     );
 }
