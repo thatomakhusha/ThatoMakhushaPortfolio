@@ -15,6 +15,7 @@
 @theme inline {
     --color-bg: #0a0f1e;
     --color-text: #e2e8f0;
+    --color-sub-text: #6b8aad;
     --color-muted: #4a6580;
     --color-border: #1e2d45;
     --color-accent: #38bdf8;
@@ -34,6 +35,16 @@
         color: var(--text);
         font-family: var(--font-mono);
         /* cursor: none; */
+    }
+    section{ 
+      padding: 100px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .btn-ghost {
+      @apply text-accent border border-accent px-3 py-2 rounded-lg;
+    }
+    .btn-primary {
+      @apply bg-accent text-bg border border-accent px-3 py-2 rounded-lg hover:opacity-90;
     }
     .cursor {
         position: fixed;

@@ -28,7 +28,7 @@ export default function Navbar(){
                         ))}
                     </div>
                     <div>
-                        <Link href="/" className="text-accent border border-accent px-3 py-2 hover:bg-accent hover:text-bg rounded-lg">
+                        <Link href="/" className="btn-ghost hover:bg-accent hover:text-bg">
                             download_cv.pdf
                         </Link>
                     </div>
