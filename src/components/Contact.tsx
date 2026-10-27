@@ -7,7 +7,7 @@ const CV_URL = "/documents/Thato_Makhusha_CV.pdf";
 export default function Contact() {
   return (
     <section id="contact" className="px-6 md:px-7 lg:px-9 bg-size-[40px_40px] bg-[linear-gradient(#1e2d4520_2px,transparent_2px),linear-gradient(90deg,#1e2d4520_2px,transparent_2px)]">
-      <SectionHeader number="04" title="contact" />
+      <SectionHeader number="05" title="contact" />
 
       <p className="max-w-2xl text-2xl md:text-[28px] leading-snug font-medium mb-8">
         Open to internships, graduate opportunities and freelance projects.
