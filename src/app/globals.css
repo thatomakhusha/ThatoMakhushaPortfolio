@@ -5,18 +5,16 @@ html.custom-cursor * {
     cursor: none !important;
 }
 
-/* ---------- your original design tokens (unchanged) ---------- */
 :root {
     --bg: #0a0f1e;
     --text: #e2e8f0;
     --muted: #4a6580;
     --border: #1e2d45;
-    --accent: #38bdf8 ;
+    --accent: #38bdf8;
     --font-mono: var(--font-jetbrains), monospace;
     --font-sans: sans-serif;
 }
 
-/* lets you also use them as Tailwind classes: bg-bg, text-accent, border-border */
 @theme inline {
     --color-bg: #0a0f1e;
     --color-text: #e2e8f0;
@@ -26,11 +24,8 @@ html.custom-cursor * {
     --color-accent: #38bdf8;
 }
 
-/* ---------- your original site styles ---------- */
 @layer components {
     * {
-        /* Turn this back on once the custom cursor component exists:
-        cursor: none !important; */
         box-sizing: border-box;
         margin: 0;
         padding: 0;
@@ -39,49 +34,15 @@ html.custom-cursor * {
         background: var(--bg);
         color: var(--text);
         font-family: var(--font-mono);
-        /* cursor: none; */
     }
-    section{ 
-      padding: 100px 0;
-      border-bottom: 1px solid var(--border);
+    section {
+        padding: 100px 0;
+        border-bottom: 1px solid var(--border);
     }
     .btn-ghost {
-      @apply text-accent border border-accent px-3 py-2 rounded-lg;
+        @apply text-accent border border-accent px-3 py-2 rounded-lg;
     }
     .btn-primary {
-      @apply bg-accent text-bg border border-accent px-3 py-2 rounded-lg hover:opacity-90;
+        @apply bg-accent text-bg border border-accent px-3 py-2 rounded-lg hover:opacity-90;
     }
-    .cursor {
-        position: fixed;
-        width: 8px;
-        height: 8px;
-        background: var(--accent);
-        border-radius: 50%;
-        pointer-events: none;
-        z-index: 9999;
-        transition: transform 0.15s ease, background 0.2s;
-    }
-    .cursor-ring {
-        position: fixed;
-        width: 32px;
-        height: 32px;
-        border: 1px solid #208eaf55;
-        border-radius: 50%;
-        pointer-events: none;
-        z-index: 9998;
-    }
-    .cursor.hovered {
-        transform: scale(2.5);
-    }
-    .cursor-ring.hovered {
-        border-color: #39d3d3aa;
-        transform: scale(1.4);
-    }
-    .fade-section {
-        opacity: 0;
-        transition: opacity 0.5s ease;
-    }
-    .fade-section.visible {
-        opacity: 1;
-    }
-  }
+}
