@@ -10,8 +10,8 @@ const navLinks = [
 export default function Navbar(){
 
     return (
-        <nav className="sticky top-0 z-50 border-b border-border">
-            <div className="flex items-center justify-between h-20 mx-auto px-5 lg:px-8">
+        <nav className="sticky top-0 z-50 border-b border-border mx-auto px-6 md:px-7 lg:px-9">
+            <div className="flex items-center justify-between h-20">
                 <Link href="/" className="text-accent text-[14.5px] font-mono">
                     TM.dev
                 </Link>
