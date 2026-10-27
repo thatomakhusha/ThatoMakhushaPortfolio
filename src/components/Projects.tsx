@@ -7,7 +7,7 @@ const PROJECTS: Project[] = [
     title: "Pursuit",
     description:
       "Application and career pathway tracker built for the FNB App of the Year Hackathon 2026. Jobs, internships, learnerships, bursaries and university applications in one place.",
-    stack: ["Next.js", "TypeScript", "Tailwind", "Supabase"],
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase"],
     image: "/projects/pursuit.png",
     demoUrl: "https://pursuit-brown-ten.vercel.app/",
     codeUrl: "https://github.com/thatomakhusha/pursuit",
@@ -17,7 +17,7 @@ const PROJECTS: Project[] = [
     title: "BitBunker",
     description:
       "Retro arcade games hub with 15 planned games and per-game leaderboards. Java game logic, a Next.js frontend, and a Spring Boot and PostgreSQL backend I am learning as I build. In development.",
-    stack: ["Java", "Spring Boot", "PostgreSQL", "Next.js", "TypeScript"],
+    stack: ["Java", "Spring Boot", "PostgreSQL", "Next.js", "TypeScript", "Tailwind CSS"],
     image: "/projects/bitbunker.png",
     codeUrl: "https://github.com/thatomakhusha/bitbunker",
   },
