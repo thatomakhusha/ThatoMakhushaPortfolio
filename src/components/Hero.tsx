@@ -57,7 +57,7 @@ export default function Hero(){
                     <Link  href="/#projects" className="btn-primary self-start">
                         view_projects()
                     </Link>
-                    <a href="/documents/Thato Makhusha Curriculum Vitae.pdf" download className="btn-ghost self-start">
+                    <a href="/documents/Thato_Makhusha_Curriculum_Vitae.pdf" download className="btn-ghost self-start">
                         download_cv()
                     </a>
                 </div>

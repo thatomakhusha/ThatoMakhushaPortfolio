@@ -11,7 +11,7 @@ const navLinks = [
   { href: "/#contact", label: "contact" },
 ];
 
-const CV_URL = "/documents/Thato_Makhusha_CV.pdf";
+const CV_URL = "/documents/Thato_Makhusha_Curriculum_Vitae.pdf";
 
 function NavLink({ href, label }: { href: string; label: string }) {
   return (

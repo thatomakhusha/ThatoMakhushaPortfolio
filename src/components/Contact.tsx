@@ -2,7 +2,7 @@ import SectionHeader from "./SectionHeader";
 
 const EMAIL = "thembamakhusha@outlook.com";
 const GITHUB_URL = "https://github.com/thatomakhusha";
-const CV_URL = "/documents/Thato_Makhusha_CV.pdf";
+const CV_URL = "/documents/Thato_Makhusha_Curriculum_Vitae.pdf";
 
 export default function Contact() {
   return (
