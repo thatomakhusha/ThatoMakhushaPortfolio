@@ -1,4 +1,5 @@
 import ProjectCard, { type Project } from "./ProjectCard";
+import SectionHeader from "./SectionHeader";
 
 const PROJECTS: Project[] = [
   {
@@ -39,7 +40,7 @@ const PROJECTS: Project[] = [
 export default function Projects() {
   return (
     <section id="projects" className="px-4">
-      <p className="text-accent text-sm mb-10">01 // selected_projects</p>
+      <SectionHeader number="01" title="selected_projects" />
 
       <div className="grid gap-6 md:grid-cols-2">
         {PROJECTS.map((project) => (
